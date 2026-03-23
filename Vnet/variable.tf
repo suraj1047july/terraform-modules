@@ -11,10 +11,8 @@ variable "resource_group_name" {
   description = "give the rg name"
 }
 variable "address_space" {
-  type = string
-  description ="give the CIDR range"
+  type = list(string)
 }
 variable "tags" {
-  type    = string
-  description ="give the tag"
+  type = map(string)
 }
