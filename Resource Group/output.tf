@@ -1,3 +1,3 @@
 output "rg_id"  { 
-    value = azurerm_virtual_network.rg.id 
+    value = azurerm_resource_group.this.id 
     }
