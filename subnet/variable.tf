@@ -1,10 +1,10 @@
-variable "resource_group_name" {
-  description = "Resource Group Name"
+variable "resource_group" {
+  description = "Resource Group "
   type        = string
 }
 
-variable "vnet_name" {
-  description = "Virtual Network Name"
+variable "vnet" {
+  description = "Virtual Network"
   type        = string
 }
 
