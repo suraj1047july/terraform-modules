@@ -4,7 +4,5 @@ type = string
 variable "location" {
 type = string 
 }
-variable "tag" {
-type = string 
-}
+
 
